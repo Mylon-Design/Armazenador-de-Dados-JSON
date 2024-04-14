@@ -1,0 +1,1 @@
+Este é um armazenador de dados, ele pegará os dados preenchidos e os salvará em arquivo .json.
