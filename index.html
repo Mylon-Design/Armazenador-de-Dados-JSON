@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazenador de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h1>salve seus dados!</h1>
+        </div>
+        <br>
+        <div class="container-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="ex: Antonio">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="ex: 42">
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" placeholder="ex: 1234-5678">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="ex: antonio@gmail.com">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="ex: Pindamonhangaba">
+            <label for="profissao">Profissão:</label>
+            <input type="text" id="profissao" placeholder="ex: Segurança">
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" placeholder="Skate, Correr e Leitura">
+            <button onclick="criarJSON()">Salvar Dados</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
